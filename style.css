@@ -1,0 +1,86 @@
+
+@import url('https://fonts.google.com/specimen/Kanit?script=Thai');
+
+.header{
+    background-color: black;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index:99;
+    transition:top 0.8s ease-out;
+
+    padding: 10px;
+}
+
+.header.hide{
+    top:-100%;
+}
+
+.frame{
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top: 110px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.profile{
+    width:45%;
+    margin: 2%;
+}
+.description{
+    font-family: kanit;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: -5%;
+}
+.marvelPoster{
+    width:14.66%;
+    margin: 2%;
+} 
+.imgInner{
+    width: 100%;
+}
+.logo {
+    width: 32%;
+    margin-left: 34%;
+    margin-right: 34%;
+    margin-top: -4.5%;
+    margin-bottom: -6.5%;
+}
+.textT{
+font-family: kanit;
+font-size: 105%;
+text-align: center;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 5%;
+}
+.subbox1, .subbox2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.left {
+    background-color: #f0f0f0;
+    justify-content: center; /* ชิดซ้าย */
+    justify-items: center;
+}
+.right {
+    background-color: #d0d0d0;
+    justify-content: flex-start; /* ชิดซ้าย */
+}

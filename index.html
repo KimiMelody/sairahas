@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>56 Di Waa!!</title>
+    
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: white;
+            font-family: 'Kanit', sans-serif;
+            margin: 0;
+            padding: 0;
+            margin-top: 100px;
+        }
+        
+        .header {
+            background-image: url("header.jpg");
+            background-size: cover;
+            width: 100%;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -10px;
+            margin-right: -10px;
+            margin-left: -10px;
+            position: fixed;
+            top:0px;
+            left:0px;
+            right:0px;
+            z-index:99;
+            transition:top 0.8s ease-out;
+            padding: 10px;
+        }
+        .header.hide{
+        top:-100%;
+        }
+
+        .logo img {
+            width: 50%;
+        }
+        
+        .frame {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #464141;
+            margin-top: 20px;
+        }
+        
+        .profile img {
+            margin-top: 25px;
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .description {
+            text-align: center;
+        }
+        
+        .description h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 0;
+        }
+        
+        .description h3 {
+            font-style: italic;
+            color: gray;
+            margin-top: 5px;
+            font-size: 1.2rem;
+        }
+        
+        .description p {
+            font-style: italic;
+            margin: 5px 0;
+        }
+        
+        .text-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        .quote {
+            font-style: italic;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        
+        .box1 {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: -10px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            margin-top: 0;
+        }
+        
+        .box1 img {
+            width: 250px;
+            border-radius: 5px;
+        }
+
+        .box2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        }
+
+        .box2 img {
+        width: 250px;
+        border-radius: 5px;
+        }
+
+        .box3 {
+        display: flex;
+        justify-content: center; /* จัดให้อยู่ตรงกลาง */
+        align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+        gap: 15px; /* ระยะห่างระหว่างรูป */
+        margin: 30px auto;
+        padding: 20px;
+        max-width: 900px; /* กำหนดความกว้างสูงสุด */
+        flex-wrap: wrap; /* ป้องกันรูปเกินจอ (Responsive) */
+        }
+
+        .box3 img {
+        width: 400px; /* กำหนดขนาดรูป */
+        border-radius: 5px;
+        }
+
+    </style>
+</head>
+<header class="header">
+    <div>
+        <img style="width: 950px;" src="header.png" alt="logo">
+    </div>
+</header>
+<body style="margin-top: 160px;">
+
+    <div class="box1" style="background-color: white;">
+        <img src="พบกันใหม่.jpg" alt="Item">
+        <div style="text-align: center;">
+            <h2>พบกันใหม่</h2>
+            <p>“ถ้าเธอรักใครมากสักหนึ่งคน และผลคือเขาจะไป ขอแค่สักครั้งที่อย่างน้อยเธอสุขใจแม้ทำได้เพียงตอนสุดท้าย เจ็บเท่าไหร่ยินดีให้เขานั้นเดินไป...”</p>
+        </div>
+    </div>
+
+
+    <div class="frame">
+        <div class="profile">
+            <img src="หมุดเอง.jpg" alt="Profile Picture">
+        </div>
+        <div class="description">
+            <h1 style="color: snow;">มหาสมุทร ราวกลาง</h1>
+            <h3>"พี่หมุด"</h3>
+            <p style="color: snow;">คนชอบ POLYCAT</p>
+        </div>
+    </div>
+
+    <div style="font-style: italic;color: dimgray;" class="text-container">
+        <p>หลายวันเดือนพ้นปีที่ผ่านมา  รอยรักราล้นใจยังไม่เลือน</p>
+        <p>ทั้งรอยยิ้มเสียงสรวญครวญย้ำเตือน รักไม่เจือนจางจนจรจากใจ</p>
+        <p>สายรหัส 56 ที่ข้ารัก  ไม่นานนักคงจะได้ลาลับไกล</p>
+        <p>ยังคิดถึงน้องพี่อยู่ร่ำไป  ลาลับไกลรอวันพบอีกครา...</p>
+    </div>
+    
+    <div class="text-container">
+        <p>ถึงสายรหัส 56 ทุกคน ขอบคุณสำหรับช่วงเวลาดีๆที่เรามีให้กันนะ แปลกดีเหมือนกันทั้งชีวิตไม่เคยมีสายรหัสที่ใหญ่แถมรู้สึกอบอุ่นขนาดนี้ขอบคุณเพื่อนแมที่เป็นเพื่อนรหัสที่น่ารักมาตลอด เวลาเค้าขอให้เพื่อนช่วยอะไร
+            เพื่อนก็เต็มใจช่วยตลอดเลย ขอบใจโมขอบใจไอซี่ที่ทำให้ประสบการณ์การเป็นพี่รหัสของพี่แม่งโคตรเจ๋งสุดยอดขนาดนี้ รู้สึกพี่เป็นคนที่โชคดีจริงๆอ่ะ ที่ได้เจอพวกแก
+        </p>
+        <p>ตามความรู้สึกพี่นะ พี่รู้สึกว่าสายรหัส 56 เป็นสายรหัสที่อบอุ่นมากตั้งแต่พี่อยู่ ม.4 ทุกคนน่ารักกันมากๆ ตั้งแต่รุ่นพี่อ๋อม พี่อ๋อมก็ปั่นจักรยานทั่วโรงเรียนหาพี่เพื่อเอาขนมให้ คิดย้อนกลับไปก็ตลกดีแต่ก็น่ารักมากๆ
+            พี่อ๋อมเป็น inspiration ให้พี่สุดๆ ได้วิธีเป็นพี่รหัสมาจากการนึกถึงพี่อ๋อมนี่แหละ
+        </p>
+        <p>ขอโทษนะถ้ามีบางครั้งพี่เผลอล่วงเกินอะไรพวกแกไปบ้าง แล้วก็ขอโทษที่ช่วงหลังๆไม่ค่อยได้ใช้เวลากับพวกแกเลย</p>
+        <p>ขอบคุณสำหรับทุกอย่างที่มีให้กันอีกครั้งนะ สุดท้ายนี้ พี่ขอให้ทุกคนพบเจอแต่สิ่งดี ๆ (อวยพรคนแก่มาก) happy มากๆแต่ขอให้น้อยกว่าพี่ ขอให้มีแต่คนดีๆแบบพี่เข้าหาเยอะๆ แล้วก็จุ๊ฟมั้วะไว้เจอกันใหม่นะเบเบ๋ </p>
+    </div>
+    
+    <div class="box3">
+        <img src="old.jpeg" alt="Image1">
+        <img src="new.jpeg" alt="Image2">
+    </div>
+
+    <div class="box2" style="text-align: center; background-color: wheat;box-shadow: #464141;">
+        <img src="kalamae.jpg">
+        <div>
+            <p class="quote">“พี่กาละแม”</p>
+            <p>อย่างที่ว่าไปนั่นแหละเพื่อน ขอบคุณที่คอยช่วยเรื่องต่างๆนะ เพื่อนเป็นเพื่อนรหัสที่น่ารักมากๆ ยกให้เป็นเพื่อนรหัสนัมเบอร์วันตลอดกาลเลย เพราะทั้งชีวิตเค้าเคยมีเพื่อนรหัสแค่คนเดียว (ล้อเล่นๆ) ตอนเจอกันครั้งแรกๆเค้าแอบกลัวเพื่อนหน่อยๆ 555 แปลกดีเหมือนกันทั้งชีวิตไม่เคยมีสายรหัสที่ใหญ่ถมรู้สึกอบอุ่นขนาดนี้ขอบคุณเพื่อนแมที่เป็นเพื่อนรหัสที่น่ารักมาตลอด
+                ฝ้ายเป็นแนะนำให้เค้ารู้จักเพื่อนน่ะ พอรู้จักเพื่อน เพื่อนก็เป็นคนที่เฟรนลี่ อารมณ์ดี แล้วก็น่ารักมากๆ ขอให้เพื่อนน่ารักแบบนี้ตลอดไปนะ แล้วก็ขอให้เจอแต่คนใจดีกับเพื่อนเยอะๆด้วย
+            </p>
+            <p>จบไปแล้วก็ขอให้เพื่อนมีความสุขมากๆ ได้เรียนคณะในฝัน ได้เรียนมหาลัยที่อยากได้ ส่วนที่เพื่อนขอให้เค้าดูดวงให้ เดี๋ยวเค้าดูให้วันปัจฉิมนะ ไม่ลืมๆ</p>
+        </div>
+    </div>
+    <div class="box2" style="text-align: center; background-color: azure;">
+        <div>
+            <p class="quote">“โมโม่”</p>
+            <p>
+                ขอบคุณสำหรับ 2 ปีที่ผ่านมานะ เป็นเวลาช่วงเวลาสั้นๆแต่มีความหมายสำหรับพี่มาก วันไหนที่มีแกอยู่ด้วยมันโคตรจะสุดยอด จริงๆพี่เป็นคนพูดไม่ค่อยเก่งนะ(รึเปล่า) ยังรู้สึกตื่นเต้นอยู่เลยตอนแกมาพูดด้วย 555 แต่ก็ขอบคุณที่มาชวนพี่คุยบ่อยๆละกันนะ
+                ขอบคุณที่โสดเป็นเพื่อนในบางครั้ง 555 ถ้าตอนนี้ยังไม่มีแฟนแล้วอยากมีก็ขอให้มีไวๆนะ อยากเห็นแกมีแฟนโว้ย แต่ถ้าตอนนี้มีอยู่แล้วก็ขอให้มีความสุขมากๆนะ เฮ้อออเวลาผ่านไปเร็วจังขอบคุณที่เข้ามาเติมสีสันในชีวิตพี่นะ
+                นึกไม่ออกเลยถ้าที่ผ่านมามันไม่มีแกมันจะเป็นยังไง พี่ยังจำวันแรกที่เรารู็จักกันได้ จริงๆไม่คิดว่าจะสนิทกันเร็วมากๆ
+            </p>
+            <p>ยังไงก็...อยู่ต่อทางนี้ก็โชคดีนะจ๊ะ มีความสุขมากๆ อย่าเครียดมากล่ะ มีไรก็ทักหาได้ตลอด แต่ตอบรึเปล่าอันนี้ไม่รู้ 555 หยอกๆ</p>
+        </div>
+        <img src="momo.jpg">
+    </div>
+    <div class="box2" style="text-align: center; background-color: rgb(204, 168, 200);box-shadow: #464141;">
+        <img src="ice.jpg">
+        <div>
+            <p class="quote">“ไอซซซซซซซซซ์”</p>
+            <p>"พี่กันนนน!" เสียงที่คุ้นเคยและโคตรจะเอกลักษณ์ ก็ขอบคุณสำหรับ 3 ปีที่ผ่านมานะ คงต้องขอย้ำอีกครั้งว่ารู้สึกโชคดีมากที่มีไอซ์เป็นน้องรหัส น่าเสียดายที่ช่วงหลังๆไม่ค่อยได้คุยกันเท่าไหร่
+                ความทรงจำที่ลืมไม่ลงของแกคือตอนที่รวมสายกิน KFC ตอนแกม.4 ไม่รู้แกยังจำได้อยู่รึเปล่าเพราะพี่จะไม่เล่าหรอก มันน่าเกินอายเกินไปสำหรับพี่ 555 แต่เอาจริงๆมันก็ฮาดี เป็นช่วงที่มีความสุขมากช่วงนึง
+                เกือบจะลืมไปแล้วว่าตอนม.5 สนุกแค่ไหน แกเป็นคนที่ energy สูงมากไม่รู้ไปเอามาจากไหนเยอะแยะ ช่วงนี้ดูเครียดๆนะ ถ้าเจออะไรอยู่ก็ เป็นกำลังใจให้นะมายโบร๋ แล้วก็เดี๋ยวก็ขึ้นม.6 ละ ขอให้เป็นช่วงชีวิตมัธยมที่ดีนะ มีความสุขมากๆ ตามนั้นครับมายโบร๋ ดีใจที่ได้อยู่สายรหัสเดียวกันเสมอ
+            </p>
+        </div>
+    </div>
+    <div class="box2" style="text-align: center; background-color: rgb(122, 120, 132);">
+        <div>
+            <p class="quote">“คะน้า”</p>
+            <p>
+                สวัสดีจ้าคะน้าน้องใหม่ของสายรหัส 56 จริงๆจะบอกน้องใหม่ก็ไม่เชิงเพราะนี่ก็เกือบจะปีนึงแล้ว เป็นไงบ้างชีวิตม.ปลาย happy ดีมะ ตามเคยขอให้เป็นช่วงชีวิตมัธยมปลายที่ดีนะ มีความสุขมากๆ
+                ยินดีที่ได้รู้จักน้องคะน้าเสมอนะ น้องเป็นคนที่น่ารักมากๆ อยู่สายกับพี่ไอซ์พี่โมต่อให้สนุกนะ ดูแลพี่เค้าด้วย 555 Byebye นะไว้เจอกันใหม่
+            </p>
+        </div>
+        <img src="kana.jpg">
+    </div>
+
+    <div class="box2" style="text-align: center; background-color: rgb(173, 179, 208);">
+        <div>
+            <p class="quote">“ออโต้”</p>
+            <p>
+                เย้จบแล้ว Congratulation! น้าา สถานีต่อไป ม.ปลาย ก็ขอให้เป็นชีวิตม.ปลายที่ดีละกัน ขอให้เจอแต่สังคมดีๆนะ ขอโทษที่พี่หาตุ๊กตาแบบที่พี่เคยบอกไว้ปีก่อนให้แกไม่ได้ แต่ก็ขอให้แกเจอตุ๊กตาทองคำของชีวิตแกนะ
+            </p>
+        </div>
+        <div>
+            <p class="quote">“เฟิร์ส”</p>
+            <p>
+                เป็นไงบ้าง Happy ดีป่าวพี่จบละนะ คนอยู่ทางนู้นก็สู้ๆนะ ขอให้ช่วงเวลาที่เหลือมีแต่เรื่องดีๆ ยังอยากเลี้ยงหนมแกเสมอ(ถ้ามีตัง) 
+            </p>
+        </div>
+        <div>
+            <p class="quote">“น้องม.1”</p>
+            <p>
+                ยินดีต้อนรับสู่รั้วจภ.นะครับ ไม่รู้ว่าน้องจะได้อ่านข้อความนี้ป่าว แต่ถ้าได้อ่านพี่ก็ขอให้น้อง happy มากๆในรั้วแคแสดนี้นะ ไว้เจอกันใหม่เมื่อชาติต้องการ
+            </p>
+        </div>
+    </div>
+
+    <script src="event.js"></script>
+</body>
+</html> ช่วงนี้ดู
